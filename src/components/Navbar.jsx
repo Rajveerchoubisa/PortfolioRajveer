@@ -2,6 +2,7 @@
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
+import { BsTwitterX } from "react-icons/bs";
 
 
 
@@ -11,9 +12,18 @@ const Navbar = () => {
         <h1>PORTFOLIO</h1>
     </div>
     <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <FaLinkedin />
+        <a href="https://www.linkedin.com/in/rajveer-choubisa-65b982249/">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/Rajveerchoubisa">
         <FaGithub />
+        </a>
+        <a href="https://www.instagram.com/rv_ranveer__?igsh=ZnYzMDdkcHR6a2pu&utm_source=qr">
         <FaInstagram />
+        </a>
+        <a href="https://x.com/RajveerChoubisa">
+        <BsTwitterX />
+        </a>
     </div>
   </nav>
 };
